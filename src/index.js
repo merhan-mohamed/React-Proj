@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render((
-<BrowserRouter basename='https://merhan-mohamed.github.io/React-Proj'>
+<BrowserRouter basename='/React-Proj'>
 <App /> 
 </BrowserRouter>), document.getElementById('root'));
 
