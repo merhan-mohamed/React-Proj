@@ -5,9 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { BrowserRouter } from 'react-router-dom';
 
 
-ReactDOM.render(<App /> , document.getElementById('root'));
+ReactDOM.render((
+<BrowserRouter basename='https://merhan-mohamed.github.io/React-Proj'>
+<App /> 
+</BrowserRouter>), document.getElementById('root'));
 
 
 // If you want to start measuring performance in your app, pass a function
