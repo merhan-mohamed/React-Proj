@@ -1,0 +1,58 @@
+
+.home .home-information
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .home-information .home-title
+{
+    color: #5e5e5e;
+}
+
+.home .home-information .home-info 
+{
+    color: #eb5424;
+}
+.home .home-information .home-desc
+{
+    color:#888
+}
+.home .home-information .home-desc span 
+{
+    color:#000
+}
+.home .home-information button
+{
+    color:#fff;
+    background-color: #eb5424;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .home-title
+    {
+            margin-top: 120px;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:1199px){
+
+    .home-title
+{
+    margin-bottom: 15px;
+}
+
+
+}

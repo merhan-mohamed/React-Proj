@@ -1,0 +1,67 @@
+.card
+{
+    width:18rem;
+    margin:auto
+   
+   
+  
+}
+.card-title
+{
+    color:#eb5424
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Worked{
+        display: block;
+        margin-top:3px;
+        
+        
+    }
+    .card{
+        margin-top:10px;
+        margin-left: auto !important;
+        
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .Worked{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .Worked{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+    .Worked{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .Worked{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

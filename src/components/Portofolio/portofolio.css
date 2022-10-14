@@ -1,0 +1,20 @@
+.grid
+{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);  
+}
+
+.overlay span
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border:2px solid #eb5424
+
+}

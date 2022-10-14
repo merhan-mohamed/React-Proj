@@ -1,0 +1,77 @@
+.color
+{
+    color: #eb5424
+}
+
+@media only screen and (max-width: 600px) {
+
+    .AboutContent
+    {
+        position:absolute;
+        transform: translate(-50%, -50%);
+        left:40%;
+        top:50%;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width:768px)
+{
+    .AboutContent
+    {
+        position:absolute;
+        transform: translate(-50%, -50%);
+        left:35%;
+        top:40%;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .AboutContent
+    {
+        position:absolute;
+        transform: translate(-50%, -50%);
+        left:35%;
+        top:40%;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px)
+{
+   .AboutContent
+    {
+        position:absolute;
+        transform: translate(-50%, -50%);
+        left:35%;
+        top:45%;
+    }
+    .paragh
+    {
+        text-align: justify;
+        width: 55%
+    }
+    
+}
+
+@media only screen and (min-width: 1200px)
+{
+   .AboutContent
+    {
+        position:absolute;
+        transform: translate(-50%, -50%);
+        left: 94%;
+        top: 60%;
+        width: 50%;
+    }
+    
+}
+
+
+

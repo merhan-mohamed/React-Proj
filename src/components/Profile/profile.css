@@ -1,0 +1,44 @@
+.styled
+{
+    color:#eb5424
+}
+
+
+@media (min-width:1200px) {
+    .profileContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .skills
+    {
+    margin-left: 290px;
+    }
+    .profileSection div
+    {
+        
+        justify-content: space-between;
+      
+    }
+    
+}
+
+
+@media (max-width:768px) {
+    .profileContent{
+        display: block !important; 
+    }
+    .skills {
+        margin-left: 0px;
+        margin-top:0px
+    }
+    
+}
+
+@media only screen and (max-width:600px) {
+    .styled
+    {
+        font-size: 12px;
+    }
+    
+}
+
