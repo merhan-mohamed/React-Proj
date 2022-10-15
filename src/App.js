@@ -15,8 +15,9 @@ class App extends Component{
               <Routes>
               <BrowserRouter basename={"http://localhost:3000/" || ''}>
                 <Route exact path ="/" element={<Index/>} />
-                <Route path="/contact" element={<Contact/>} />
               </BrowserRouter>
+                <Route path="/contact" element={<Contact/>} />
+              
               </Routes>
           </div>
       </BrowserRouter>
