@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact"
 class App extends Component{
   render(){
     return (
-      <BrowserRouter basename={"http://localhost:3000/" || ''}>
+      <BrowserRouter basename="/">
           <div className="App">
             <Navbar />
               <Routes>
