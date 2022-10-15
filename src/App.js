@@ -13,7 +13,7 @@ class App extends Component{
           <div className="App">
             <Navbar />
               <Routes>
-              <BrowserRouter basename={Window.location.pathname || ''}>
+              <BrowserRouter basename={"http://localhost:3000/" || ''}>
                 <Route exact path ="/" element={<Index/>} />
                 <Route path="/contact" element={<Contact/>} />
               </BrowserRouter>
