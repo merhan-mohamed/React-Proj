@@ -9,15 +9,12 @@ import Contact from "./components/Contact/Contact"
 class App extends Component{
   render(){
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={"http://localhost:3000/" || ''}>
           <div className="App">
             <Navbar />
               <Routes>
-              <BrowserRouter basename={"http://localhost:3000/" || ''}>
                 <Route exact path ="/" element={<Index/>} />
-              </BrowserRouter>
                 <Route path="/contact" element={<Contact/>} />
-              
               </Routes>
           </div>
       </BrowserRouter>
