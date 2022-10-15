@@ -53,7 +53,7 @@ const Portofolio = () => {
 
             <div>
                 <div className="grid">
-                    {myImg}
+                    console.log({myImg})
                 </div>
                 
             </div>
