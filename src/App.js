@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact"
 class App extends Component{
   render(){
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/React-Proj">
           <div className="App">
             <Navbar />
               <Routes>
