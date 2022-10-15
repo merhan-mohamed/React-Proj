@@ -12,10 +12,12 @@ class App extends Component{
       <BrowserRouter>
           <div className="App">
             <Navbar />
+            <BrowserRouter basename={Window.location.pathname || ''}>
               <Routes>
                 <Route exact path ="/" element={<Index/>} />
                 <Route path="/contact" element={<Contact/>} />
               </Routes>
+            </BrowserRouter>
           </div>
       </BrowserRouter>
     )
