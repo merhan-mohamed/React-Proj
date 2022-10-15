@@ -16,7 +16,7 @@ const Portofolio = () => {
     return(
         <div key={item.id}>
             <Imagewrapper>
-                <img src="{item.image}" className="d-block w-100 mt-2" alt="..." />
+                <img src="images/Portofolio/{item.image}" className="d-block w-100 mt-2" alt="..." />
                 <Overlay className="overlay">
                     <span>Show Image</span>
                 </Overlay>
@@ -53,7 +53,7 @@ const Portofolio = () => {
 
             <div>
                 <div className="grid">
-                    console.log({myImg})
+                    {myImg}
                 </div>
                 
             </div>
